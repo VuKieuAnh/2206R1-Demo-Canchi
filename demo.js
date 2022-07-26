@@ -32,18 +32,28 @@
 // }
 
 //switch--case
-let gender = prompt("Moi nhap vao gioi tinh");
-switch(gender){
-    case "nam":
-        alert("Re trai");
-        break;
-    case "nu":
-        alert("Re phai");
-        break;
-    case "linhtinh":
-        alert("di thang");
-        break;
-    default:
-        alert("quay ra phia sau");    
-}
+// let gender = prompt("Moi nhap vao gioi tinh");
+// switch(gender){
+//     case "nam":
+//         alert("Re trai");
+//         break;
+//     case "nu":
+//         alert("Re phai");
+//         break;
+//     case "linhtinh":
+//         alert("di thang");
+//         break;
+//     default:
+//         alert("quay ra phia sau");    
+// }
+// let a =1100;
+// if(a){
+//     alert("dung");
+// }
+// else{
+//     alert("sai");
+// }
+let d = +prompt("Moi ban nhap diem");
+let result = (d>5)?(d>7)?"Tot":"Dat":"Khong Dat";
+alert(result);
 
